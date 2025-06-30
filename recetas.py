@@ -36,8 +36,8 @@ comidas = {
 df_comidas = pd.DataFrame(comidas)
 
 # Interfaz
-st.title("🍽️ Mi Planificador de Comidas Antianémicas")
-st.write("Personaliza tu menú semanal y genera la lista de compras.")
+st.title("🍽️ Planificador de Comiditas")
+st.write("Personaliza el menú semanal y genera la lista de compras.")
 
 # Mostrar/editar tabla
 st.subheader("📅 Menú Semanal")
@@ -54,9 +54,3 @@ if st.button("🛒 Generar Lista de Compra"):
     st.subheader("📌 Lista de Compra")
     for categoria, items in ingredientes.items():
         st.write(f"**{categoria}**: " + ", ".join(items))
-
-# Trackear nutrientes
-st.subheader("⚡ Nutrientes Clave")
-st.write("""- **Hierro**: Carnes, lentejas, espinaca.
-- **Vitamina C**: Jugo de naranja, morrón.
-- **Ácido fólico**: Espinaca, huevos.""")
