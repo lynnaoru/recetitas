@@ -48,7 +48,7 @@ if st.button("🛒 Generar Lista de Compra"):
     ingredientes = {
         "Proteínas": ["Pollo", "Atún", "Carne molida", "Huevos", "Queso", "Jamón"],
         "Verduras": ["Espinaca", "Acelga", "Morrón Rojo", "Morrón Verde", "Tomate", "Zanahoria", "Cebolla"],
-        "Carbohidratos": ["Arroz", "Pan integral", "Polenta", "Papa"],
+        "Carbohidratos": ["Arroz", "Pan integral", "Polenta", "Papa", "Granola", "Cereal"],
         "Extras": ["Crema de leche", "Jugo de naranja", "Lentejas", "Yogur", "Salsa", "Choclo"]
     }
     st.subheader("📌 Lista de Compra")
